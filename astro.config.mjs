@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.kodular.io',
+  site: 'https://kodular-github-io.vercel.app',
   integrations: [sitemap()],
   vite: {
     plugins: [yaml()]
@@ -13,8 +13,8 @@ export default defineConfig({
     redirects: true
   },
   redirects: {
-    '/account': 'https://account.kodular.io/',
-    '/ide': 'https://ide.kodular.io/',
-    '/store': 'https://store.kodular.io/',
+    '/account': 'https://account.kodular-github-io.vercel.app/',
+    '/ide': 'https://ide.kodular-github-io.vercel.app/',
+    '/store': 'https://store.kodular-github-io.vercel.app/',
   }
 });
